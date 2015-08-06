@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00FC4A481B73B4D900DCA999 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FC4A471B73B4D900DCA999 /* main.m */; };
+		00FC4A4B1B73B4D900DCA999 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FC4A4A1B73B4D900DCA999 /* AppDelegate.m */; };
+		00FC4A4E1B73B4D900DCA999 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FC4A4D1B73B4D900DCA999 /* ViewController.m */; };
+		00FC4A531B73B4D900DCA999 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00FC4A521B73B4D900DCA999 /* Images.xcassets */; };
+		00FC4A561B73B4D900DCA999 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00FC4A541B73B4D900DCA999 /* LaunchScreen.xib */; };
+		00FC4A621B73B4D900DCA999 /* ShuttleNavigationControllerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FC4A611B73B4D900DCA999 /* ShuttleNavigationControllerExampleTests.m */; };
+		00FC4A791B73B53F00DCA999 /* HJVCAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FC4A6E1B73B53F00DCA999 /* HJVCAnimation.m */; };
+		00FC4A7A1B73B53F00DCA999 /* HJVCCardsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FC4A701B73B53F00DCA999 /* HJVCCardsAnimation.m */; };
+		00FC4A7B1B73B53F00DCA999 /* HJVCFoldAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FC4A721B73B53F00DCA999 /* HJVCFoldAnimation.m */; };
+		00FC4A7C1B73B53F00DCA999 /* HJVCNormalAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FC4A741B73B53F00DCA999 /* HJVCNormalAnimation.m */; };
+		00FC4A7D1B73B53F00DCA999 /* HJVCScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FC4A761B73B53F00DCA999 /* HJVCScaleAnimation.m */; };
+		00FC4A7E1B73B53F00DCA999 /* HJVCVerticalAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FC4A781B73B53F00DCA999 /* HJVCVerticalAnimation.m */; };
+		00FC4A831B73B55700DCA999 /* HJNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FC4A801B73B55700DCA999 /* HJNC.m */; };
+		00FC4A841B73B55700DCA999 /* HJNCDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FC4A821B73B55700DCA999 /* HJNCDelegate.m */; };
+		00FC4A871B73B68A00DCA999 /* HJVCHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FC4A861B73B68A00DCA999 /* HJVCHolder.m */; };
+		00FC4A8B1B73BBEB00DCA999 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FC4A8A1B73BBEB00DCA999 /* UIView+Extension.m */; };
+		00FC4A8D1B73BDDB00DCA999 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00FC4A8C1B73BDDB00DCA999 /* ViewController.xib */; };
+		00FC4A901B73BEAC00DCA999 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FC4A8F1B73BEAC00DCA999 /* BaseViewController.m */; };
+		00FC4A941B73C05100DCA999 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FC4A931B73C05100DCA999 /* ViewController1.m */; };
+		00FC4A971B73C06100DCA999 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FC4A961B73C06100DCA999 /* ViewController2.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00FC4A5C1B73B4D900DCA999 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00FC4A3A1B73B4D900DCA999 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00FC4A411B73B4D900DCA999;
+			remoteInfo = ShuttleNavigationControllerExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00FC4A421B73B4D900DCA999 /* ShuttleNavigationControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShuttleNavigationControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00FC4A461B73B4D900DCA999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00FC4A471B73B4D900DCA999 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00FC4A491B73B4D900DCA999 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00FC4A4A1B73B4D900DCA999 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00FC4A4C1B73B4D900DCA999 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00FC4A4D1B73B4D900DCA999 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00FC4A521B73B4D900DCA999 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		00FC4A551B73B4D900DCA999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		00FC4A5B1B73B4D900DCA999 /* ShuttleNavigationControllerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShuttleNavigationControllerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00FC4A601B73B4D900DCA999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00FC4A611B73B4D900DCA999 /* ShuttleNavigationControllerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShuttleNavigationControllerExampleTests.m; sourceTree = "<group>"; };
+		00FC4A6D1B73B53F00DCA999 /* HJVCAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJVCAnimation.h; sourceTree = "<group>"; };
+		00FC4A6E1B73B53F00DCA999 /* HJVCAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJVCAnimation.m; sourceTree = "<group>"; };
+		00FC4A6F1B73B53F00DCA999 /* HJVCCardsAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJVCCardsAnimation.h; sourceTree = "<group>"; };
+		00FC4A701B73B53F00DCA999 /* HJVCCardsAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJVCCardsAnimation.m; sourceTree = "<group>"; };
+		00FC4A711B73B53F00DCA999 /* HJVCFoldAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJVCFoldAnimation.h; sourceTree = "<group>"; };
+		00FC4A721B73B53F00DCA999 /* HJVCFoldAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJVCFoldAnimation.m; sourceTree = "<group>"; };
+		00FC4A731B73B53F00DCA999 /* HJVCNormalAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJVCNormalAnimation.h; sourceTree = "<group>"; };
+		00FC4A741B73B53F00DCA999 /* HJVCNormalAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJVCNormalAnimation.m; sourceTree = "<group>"; };
+		00FC4A751B73B53F00DCA999 /* HJVCScaleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJVCScaleAnimation.h; sourceTree = "<group>"; };
+		00FC4A761B73B53F00DCA999 /* HJVCScaleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJVCScaleAnimation.m; sourceTree = "<group>"; };
+		00FC4A771B73B53F00DCA999 /* HJVCVerticalAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJVCVerticalAnimation.h; sourceTree = "<group>"; };
+		00FC4A781B73B53F00DCA999 /* HJVCVerticalAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJVCVerticalAnimation.m; sourceTree = "<group>"; };
+		00FC4A7F1B73B55700DCA999 /* HJNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJNC.h; sourceTree = "<group>"; };
+		00FC4A801B73B55700DCA999 /* HJNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJNC.m; sourceTree = "<group>"; };
+		00FC4A811B73B55700DCA999 /* HJNCDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJNCDelegate.h; sourceTree = "<group>"; };
+		00FC4A821B73B55700DCA999 /* HJNCDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJNCDelegate.m; sourceTree = "<group>"; };
+		00FC4A851B73B68A00DCA999 /* HJVCHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJVCHolder.h; sourceTree = "<group>"; };
+		00FC4A861B73B68A00DCA999 /* HJVCHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJVCHolder.m; sourceTree = "<group>"; };
+		00FC4A891B73BBEB00DCA999 /* UIView+EXtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EXtension.h"; sourceTree = "<group>"; };
+		00FC4A8A1B73BBEB00DCA999 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		00FC4A8C1B73BDDB00DCA999 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		00FC4A8E1B73BEAC00DCA999 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		00FC4A8F1B73BEAC00DCA999 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		00FC4A911B73BF1700DCA999 /* HJVCInCDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJVCInCDelegate.h; sourceTree = "<group>"; };
+		00FC4A921B73C05100DCA999 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		00FC4A931B73C05100DCA999 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		00FC4A951B73C06100DCA999 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		00FC4A961B73C06100DCA999 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00FC4A3F1B73B4D900DCA999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00FC4A581B73B4D900DCA999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00FC4A391B73B4D900DCA999 = {
+			isa = PBXGroup;
+			children = (
+				00FC4A441B73B4D900DCA999 /* ShuttleNavigationControllerExample */,
+				00FC4A5E1B73B4D900DCA999 /* ShuttleNavigationControllerExampleTests */,
+				00FC4A431B73B4D900DCA999 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00FC4A431B73B4D900DCA999 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00FC4A421B73B4D900DCA999 /* ShuttleNavigationControllerExample.app */,
+				00FC4A5B1B73B4D900DCA999 /* ShuttleNavigationControllerExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00FC4A441B73B4D900DCA999 /* ShuttleNavigationControllerExample */ = {
+			isa = PBXGroup;
+			children = (
+				00FC4A881B73BBCC00DCA999 /* ViewExtension */,
+				00FC4A6C1B73B53F00DCA999 /* BaseAnimation */,
+				00FC4A6B1B73B50600DCA999 /* ShuttleNavigationController */,
+				00FC4A491B73B4D900DCA999 /* AppDelegate.h */,
+				00FC4A4A1B73B4D900DCA999 /* AppDelegate.m */,
+				00FC4A8E1B73BEAC00DCA999 /* BaseViewController.h */,
+				00FC4A8F1B73BEAC00DCA999 /* BaseViewController.m */,
+				00FC4A4C1B73B4D900DCA999 /* ViewController.h */,
+				00FC4A4D1B73B4D900DCA999 /* ViewController.m */,
+				00FC4A8C1B73BDDB00DCA999 /* ViewController.xib */,
+				00FC4A921B73C05100DCA999 /* ViewController1.h */,
+				00FC4A931B73C05100DCA999 /* ViewController1.m */,
+				00FC4A951B73C06100DCA999 /* ViewController2.h */,
+				00FC4A961B73C06100DCA999 /* ViewController2.m */,
+				00FC4A521B73B4D900DCA999 /* Images.xcassets */,
+				00FC4A541B73B4D900DCA999 /* LaunchScreen.xib */,
+				00FC4A451B73B4D900DCA999 /* Supporting Files */,
+			);
+			path = ShuttleNavigationControllerExample;
+			sourceTree = "<group>";
+		};
+		00FC4A451B73B4D900DCA999 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00FC4A461B73B4D900DCA999 /* Info.plist */,
+				00FC4A471B73B4D900DCA999 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00FC4A5E1B73B4D900DCA999 /* ShuttleNavigationControllerExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				00FC4A611B73B4D900DCA999 /* ShuttleNavigationControllerExampleTests.m */,
+				00FC4A5F1B73B4D900DCA999 /* Supporting Files */,
+			);
+			path = ShuttleNavigationControllerExampleTests;
+			sourceTree = "<group>";
+		};
+		00FC4A5F1B73B4D900DCA999 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00FC4A601B73B4D900DCA999 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00FC4A6B1B73B50600DCA999 /* ShuttleNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				00FC4A911B73BF1700DCA999 /* HJVCInCDelegate.h */,
+				00FC4A7F1B73B55700DCA999 /* HJNC.h */,
+				00FC4A801B73B55700DCA999 /* HJNC.m */,
+				00FC4A811B73B55700DCA999 /* HJNCDelegate.h */,
+				00FC4A821B73B55700DCA999 /* HJNCDelegate.m */,
+				00FC4A851B73B68A00DCA999 /* HJVCHolder.h */,
+				00FC4A861B73B68A00DCA999 /* HJVCHolder.m */,
+			);
+			path = ShuttleNavigationController;
+			sourceTree = "<group>";
+		};
+		00FC4A6C1B73B53F00DCA999 /* BaseAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				00FC4A6D1B73B53F00DCA999 /* HJVCAnimation.h */,
+				00FC4A6E1B73B53F00DCA999 /* HJVCAnimation.m */,
+				00FC4A6F1B73B53F00DCA999 /* HJVCCardsAnimation.h */,
+				00FC4A701B73B53F00DCA999 /* HJVCCardsAnimation.m */,
+				00FC4A711B73B53F00DCA999 /* HJVCFoldAnimation.h */,
+				00FC4A721B73B53F00DCA999 /* HJVCFoldAnimation.m */,
+				00FC4A731B73B53F00DCA999 /* HJVCNormalAnimation.h */,
+				00FC4A741B73B53F00DCA999 /* HJVCNormalAnimation.m */,
+				00FC4A751B73B53F00DCA999 /* HJVCScaleAnimation.h */,
+				00FC4A761B73B53F00DCA999 /* HJVCScaleAnimation.m */,
+				00FC4A771B73B53F00DCA999 /* HJVCVerticalAnimation.h */,
+				00FC4A781B73B53F00DCA999 /* HJVCVerticalAnimation.m */,
+			);
+			path = BaseAnimation;
+			sourceTree = "<group>";
+		};
+		00FC4A881B73BBCC00DCA999 /* ViewExtension */ = {
+			isa = PBXGroup;
+			children = (
+				00FC4A891B73BBEB00DCA999 /* UIView+EXtension.h */,
+				00FC4A8A1B73BBEB00DCA999 /* UIView+Extension.m */,
+			);
+			path = ViewExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00FC4A411B73B4D900DCA999 /* ShuttleNavigationControllerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00FC4A651B73B4D900DCA999 /* Build configuration list for PBXNativeTarget "ShuttleNavigationControllerExample" */;
+			buildPhases = (
+				00FC4A3E1B73B4D900DCA999 /* Sources */,
+				00FC4A3F1B73B4D900DCA999 /* Frameworks */,
+				00FC4A401B73B4D900DCA999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShuttleNavigationControllerExample;
+			productName = ShuttleNavigationControllerExample;
+			productReference = 00FC4A421B73B4D900DCA999 /* ShuttleNavigationControllerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00FC4A5A1B73B4D900DCA999 /* ShuttleNavigationControllerExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00FC4A681B73B4D900DCA999 /* Build configuration list for PBXNativeTarget "ShuttleNavigationControllerExampleTests" */;
+			buildPhases = (
+				00FC4A571B73B4D900DCA999 /* Sources */,
+				00FC4A581B73B4D900DCA999 /* Frameworks */,
+				00FC4A591B73B4D900DCA999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00FC4A5D1B73B4D900DCA999 /* PBXTargetDependency */,
+			);
+			name = ShuttleNavigationControllerExampleTests;
+			productName = ShuttleNavigationControllerExampleTests;
+			productReference = 00FC4A5B1B73B4D900DCA999 /* ShuttleNavigationControllerExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00FC4A3A1B73B4D900DCA999 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = bibibi;
+				TargetAttributes = {
+					00FC4A411B73B4D900DCA999 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					00FC4A5A1B73B4D900DCA999 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 00FC4A411B73B4D900DCA999;
+					};
+				};
+			};
+			buildConfigurationList = 00FC4A3D1B73B4D900DCA999 /* Build configuration list for PBXProject "ShuttleNavigationControllerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00FC4A391B73B4D900DCA999;
+			productRefGroup = 00FC4A431B73B4D900DCA999 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00FC4A411B73B4D900DCA999 /* ShuttleNavigationControllerExample */,
+				00FC4A5A1B73B4D900DCA999 /* ShuttleNavigationControllerExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00FC4A401B73B4D900DCA999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FC4A561B73B4D900DCA999 /* LaunchScreen.xib in Resources */,
+				00FC4A8D1B73BDDB00DCA999 /* ViewController.xib in Resources */,
+				00FC4A531B73B4D900DCA999 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00FC4A591B73B4D900DCA999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00FC4A3E1B73B4D900DCA999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FC4A871B73B68A00DCA999 /* HJVCHolder.m in Sources */,
+				00FC4A831B73B55700DCA999 /* HJNC.m in Sources */,
+				00FC4A8B1B73BBEB00DCA999 /* UIView+Extension.m in Sources */,
+				00FC4A7B1B73B53F00DCA999 /* HJVCFoldAnimation.m in Sources */,
+				00FC4A4E1B73B4D900DCA999 /* ViewController.m in Sources */,
+				00FC4A941B73C05100DCA999 /* ViewController1.m in Sources */,
+				00FC4A901B73BEAC00DCA999 /* BaseViewController.m in Sources */,
+				00FC4A841B73B55700DCA999 /* HJNCDelegate.m in Sources */,
+				00FC4A7D1B73B53F00DCA999 /* HJVCScaleAnimation.m in Sources */,
+				00FC4A791B73B53F00DCA999 /* HJVCAnimation.m in Sources */,
+				00FC4A4B1B73B4D900DCA999 /* AppDelegate.m in Sources */,
+				00FC4A7E1B73B53F00DCA999 /* HJVCVerticalAnimation.m in Sources */,
+				00FC4A7C1B73B53F00DCA999 /* HJVCNormalAnimation.m in Sources */,
+				00FC4A971B73C06100DCA999 /* ViewController2.m in Sources */,
+				00FC4A481B73B4D900DCA999 /* main.m in Sources */,
+				00FC4A7A1B73B53F00DCA999 /* HJVCCardsAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00FC4A571B73B4D900DCA999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FC4A621B73B4D900DCA999 /* ShuttleNavigationControllerExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00FC4A5D1B73B4D900DCA999 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00FC4A411B73B4D900DCA999 /* ShuttleNavigationControllerExample */;
+			targetProxy = 00FC4A5C1B73B4D900DCA999 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00FC4A541B73B4D900DCA999 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00FC4A551B73B4D900DCA999 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00FC4A631B73B4D900DCA999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00FC4A641B73B4D900DCA999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00FC4A661B73B4D900DCA999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShuttleNavigationControllerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00FC4A671B73B4D900DCA999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShuttleNavigationControllerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		00FC4A691B73B4D900DCA999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShuttleNavigationControllerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShuttleNavigationControllerExample.app/ShuttleNavigationControllerExample";
+			};
+			name = Debug;
+		};
+		00FC4A6A1B73B4D900DCA999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShuttleNavigationControllerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShuttleNavigationControllerExample.app/ShuttleNavigationControllerExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00FC4A3D1B73B4D900DCA999 /* Build configuration list for PBXProject "ShuttleNavigationControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00FC4A631B73B4D900DCA999 /* Debug */,
+				00FC4A641B73B4D900DCA999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00FC4A651B73B4D900DCA999 /* Build configuration list for PBXNativeTarget "ShuttleNavigationControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00FC4A661B73B4D900DCA999 /* Debug */,
+				00FC4A671B73B4D900DCA999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		00FC4A681B73B4D900DCA999 /* Build configuration list for PBXNativeTarget "ShuttleNavigationControllerExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00FC4A691B73B4D900DCA999 /* Debug */,
+				00FC4A6A1B73B4D900DCA999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00FC4A3A1B73B4D900DCA999 /* Project object */;
+}

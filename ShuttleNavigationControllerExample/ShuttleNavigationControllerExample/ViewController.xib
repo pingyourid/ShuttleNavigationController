@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="view" destination="SaV-qC-oh7" id="vzy-gT-gFn"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="SaV-qC-oh7">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuS-uV-gib">
+                    <rect key="frame" x="137" y="269" width="30" height="30"/>
+                    <state key="normal" title="去2">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="go2:" destination="-1" eventType="touchUpInside" id="g2y-XZ-5FA"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="per-6A-lCF">
+                    <rect key="frame" x="137" y="156" width="30" height="30"/>
+                    <state key="normal" title="去1">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="go1:" destination="-1" eventType="touchUpInside" id="jjr-Aq-rKv"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.96047256563029815" blue="0.24626262916208697" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="per-6A-lCF" secondAttribute="centerX" constant="8" id="OTD-gI-bmq"/>
+                <constraint firstAttribute="bottom" secondItem="per-6A-lCF" secondAttribute="bottom" constant="382" id="VLC-m7-t2r"/>
+                <constraint firstAttribute="centerX" secondItem="xuS-uV-gib" secondAttribute="centerX" constant="8" id="nUW-sV-YmC"/>
+                <constraint firstAttribute="bottom" secondItem="xuS-uV-gib" secondAttribute="bottom" constant="269" id="o5q-Hd-Kj6"/>
+            </constraints>
+            <point key="canvasLocation" x="292" y="284"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
