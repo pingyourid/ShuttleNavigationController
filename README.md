@@ -14,9 +14,9 @@ A navigation controller can use custom animation to go back and go forward just 
 ```
 ViewController *vc = [[ViewController alloc] init];
 
-    HJNC *rootNC = [[HJNC alloc] initWithRootViewController:vc enableInteractivePush:YES];
+HJNC *rootNC = [[HJNC alloc] initWithRootViewController:vc enableInteractivePush:YES];
 
-    self.window.rootViewController = rootNC;
+self.window.rootViewController = rootNC;
 ```
 
 - implement the protocol
