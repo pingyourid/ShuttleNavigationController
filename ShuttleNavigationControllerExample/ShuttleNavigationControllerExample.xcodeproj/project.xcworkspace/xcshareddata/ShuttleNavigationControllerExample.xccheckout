@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>C16E9874-4BBB-437B-937F-D9A9C2E5D492</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>ShuttleNavigationControllerExample</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>F85B91666C7652D5F1DAF136C17B388FDFCB64B2</key>
 		<string>github.com:pingyourid/ShuttleNavigationController.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ShuttleNavigationControllerExample/ShuttleNavigationControllerExample.xcodeproj/project.xcworkspace</string>
+	<string>ShuttleNavigationControllerExample/ShuttleNavigationControllerExample.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>F85B91666C7652D5F1DAF136C17B388FDFCB64B2</key>
