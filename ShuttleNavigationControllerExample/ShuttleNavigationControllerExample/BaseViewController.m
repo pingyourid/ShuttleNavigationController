@@ -15,9 +15,15 @@
 @implementation BaseViewController
 @synthesize
     canDragBack,
+    canDragPush,
     animationName;
 
 - (BOOL)canDragBack
+{
+    return YES;
+}
+
+- (BOOL)canDragPush
 {
     return YES;
 }

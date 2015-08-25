@@ -50,7 +50,9 @@
             animation.comleteBlock = ^(BOOL finished) {
               if (finished) {
                   if (operation == UINavigationControllerOperationPop) {
-                      [self.ownerNC.vcHolder addVC:fromVC];
+                      if (hjvc.canDragPush) {
+                          [self.ownerNC.vcHolder addVC:fromVC];
+                      }
                   }
                   else {
                       [self.ownerNC.vcHolder removeToVC:toVC];

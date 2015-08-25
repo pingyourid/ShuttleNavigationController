@@ -40,6 +40,11 @@ self.window.rootViewController = rootNC;
     return YES;
 }
 
+- (BOOL)canDragPush
+{
+    return YES;
+}
+
 - (NSString *)animationName
 {
     return @"HJVCNormalAnimation";

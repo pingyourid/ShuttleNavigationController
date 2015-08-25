@@ -14,6 +14,11 @@
 @property (nonatomic) BOOL canDragBack;
 
 /**
+ *  是否能左滑前进
+ */
+@property (nonatomic) BOOL canDragPush;
+
+/**
  *  动画name
  */
 @property (nonatomic) NSString *animationName;
